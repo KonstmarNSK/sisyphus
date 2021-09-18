@@ -1,7 +1,11 @@
 <html>
 <body>
+<% include!("components/upper-panel.html"); %>
+
 <% for msg in &messages { %>
 <div><%= msg %></div>
 <% } %>
+
+<% include!("components/footer.html"); %>
 </body>
 </html>

@@ -1,0 +1,5 @@
+<div style="width: 400px">
+    <% for link in links{ %>
+    <div><%- link.render_once().unwrap() %></div>
+    <% } %>
+</div>
