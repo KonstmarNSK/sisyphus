@@ -1,4 +1,4 @@
-mod db_procedures;
+mod database;
 
 use std::convert::Infallible;
 use std::net::SocketAddr;
